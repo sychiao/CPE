@@ -23,7 +23,6 @@ int main()
                 c--;
                 if (c <= 0)
                 {
-                    //printf("%d ", k);
                     A[k - 1] = i;
                     i++;
                     c = m;
@@ -34,7 +33,6 @@ int main()
             else
                 k++;
         }
-        //printf("\n");
         if(A[12]==N){
             printf("%d\n",m);
             break;
